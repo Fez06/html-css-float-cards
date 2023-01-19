@@ -2,6 +2,7 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
 }
 
 main, p {
@@ -12,11 +13,13 @@ main, p {
 
 h1 {
     margin: 30px 0 50px;
+    color: #e53170;
+    font-weight: 900;
 }
 
-div {
-    width: calc(100% / 3 );
-    background-color: red;
+.scheda {
+    width: calc(100% / 3 - 15px);
+    background-color: black;
     float: left;
     margin-top: 40px;
 }
@@ -26,12 +29,31 @@ img {
     height: 100px;
 }
 
-div:nth-of-type(3n+2) {
-    background-color: green;
+.scheda:nth-of-type(3n+2) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info {
+    float: left;
+    text-align: left;
+}
+
+.info div {
+    margin: 10px;
+    color: white;
+}
+
+a {
+    color: rgb(0, 153, 255);
+}
+
+.info > :first-child {
+    font-weight: bolder;
 }
 
 /* .clearfix::after {
     content: "";
     display: table;
     clear: both;
-} */
+}  */
