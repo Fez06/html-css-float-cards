@@ -47,6 +47,7 @@ img {
 
 a {
     color: rgb(0, 153, 255);
+    text-decoration: none;
 }
 
 .info > :first-child {
